@@ -1,5 +1,5 @@
 class GitFury < Formula
-  desc "Enables shorthand git syntax and management of branch descriptions"
+  desc "Enables shorthand git syntax and allows users to add notes to branches"
   homepage "https://github.com/greghuels/git-fury"
   url "https://github.com/greghuels/git-fury/archive/refs/tags/1.3.0.tar.gz"
   sha256 "04eeadb62d2f59c300e067adbc00687cda609b3b0521129cdf7752351e54cb61"
