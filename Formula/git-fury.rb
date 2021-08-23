@@ -12,7 +12,7 @@ class GitFury < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "1d5cd03c0585da0a820e4cb5d928675c2d21c1a3fdd69bbaaf625d78e29245bb"
   end
 
-  depends_on "deno"
+  depends_on "deno" => :build
 
   def install
     system "deno", "compile", "--allow-run", "--output=git-fury", "./mod.ts"
